@@ -2,7 +2,7 @@
  * @Description: In User Settings Edit
  * @Author: your name
  * @Date: 2019-08-19 09:18:28
- * @LastEditTime: 2019-08-20 16:34:23
+ * @LastEditTime: 2019-08-21 15:17:55
  * @LastEditors: Please set LastEditors
  -->
 <template>
@@ -81,7 +81,7 @@
 </template>
 
 <script>
-import { validUsername } from '@/utils/validate'
+// import { validUsername } from '@/utils/validate'
 import { mapActions } from 'vuex'
 import SocialSign from './components/SocialSignin'
 import { Message } from 'element-ui'

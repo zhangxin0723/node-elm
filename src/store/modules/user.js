@@ -2,7 +2,7 @@
  * @Description: In User Settings Edit
  * @Author: your name
  * @Date: 2019-08-19 09:18:28
- * @LastEditTime: 2019-08-20 16:31:11
+ * @LastEditTime: 2019-08-21 15:11:20
  * @LastEditors: Please set LastEditors
  */
 import { login, logout, getInfo } from '@/api/user'
@@ -41,7 +41,7 @@ const actions = {
     const { username, password } = userInfo
     const res = await login({ user_name: username.trim(), password })
     console.log('res...', res)
-    if (res.status == 1) {
+    if (res.status === 1) {
       setToken('login')
       return true
     } else {

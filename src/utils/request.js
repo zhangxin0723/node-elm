@@ -2,11 +2,12 @@
  * @Description: In User Settings Edit
  * @Author: your name
  * @Date: 2019-08-19 09:18:28
- * @LastEditTime: 2019-08-20 16:33:15
+ * @LastEditTime: 2019-08-21 15:18:26
  * @LastEditors: Please set LastEditors
  */
 import axios from 'axios'
-import { MessageBox, Message } from 'element-ui'
+// import { MessageBox, Message } from 'element-ui'
+import { Message } from 'element-ui'
 import store from '@/store'
 import { getToken } from '@/utils/auth'
 

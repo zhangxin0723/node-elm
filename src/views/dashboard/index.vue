@@ -1,3 +1,10 @@
+<!--
+ * @Description: In User Settings Edit
+ * @Author: your name
+ * @Date: 2019-08-19 09:18:28
+ * @LastEditTime: 2019-08-21 15:32:14
+ * @LastEditors: Please set LastEditors
+ -->
 <template>
   <div class="dashboard-container">
     <component :is="currentRole" />
